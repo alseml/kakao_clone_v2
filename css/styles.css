@@ -17,10 +17,11 @@
 
 body {
   background-color: white;
-  padding: 10px 20px;
   color: #020202;
   font-family: "open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  height: 1000px;
 }
 
 a {
@@ -41,4 +42,6 @@ a {
 
 main {
   animation: fadeIn 0.5s ease-in-out;
+  padding: 0px 20px;
+  padding-top: 100px;
 }

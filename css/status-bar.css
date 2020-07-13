@@ -1,8 +1,19 @@
 .status-bar {
+  position: fixed; /*이걸 쓸때는 width를 설정해 줘야한다. 다른 레이어 위에 올려놓기 때문이다. */
+  width: 100%;
+  height: 30px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
-  opacity: 70%;
+
+  z-index: 2;
+  background-color: white;
+  top: 0;
+
+  align-items: center;
+}
+
+.status-bar .status-bar__column {
+  padding: 0px 21px;
 }
 
 .status-bar i {

@@ -1,9 +1,18 @@
 .header {
   display: flex;
-  position: static;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 20px;
+
+  box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+
+  z-index: 1;
 }
 
 .header .header__title {
@@ -25,4 +34,8 @@
 .header .header__back-btn {
   font-size: 22px;
   margin-right: 20px;
+}
+
+.header .header__header-column {
+  padding: 0px 21px;
 }
