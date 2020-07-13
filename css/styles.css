@@ -27,3 +27,18 @@ a {
   color: inherit; /*부모의 색을 적용한다.*/
   text-decoration: none; /*링크의 밑줄을 없애준다.*/
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadeIn 0.5s ease-in-out;
+}
